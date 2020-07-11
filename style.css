@@ -11,8 +11,17 @@ h1 {
 }
 h2{
     font-size: 40px;
-    font-weight: 5px;
+    color: rgb(78, 76, 76);
+   
 }
+h3{
+    font-size: 30px;
+    color: rgb(73, 67, 67);
+}
+h4{
+    color: rgb(63, 58, 58);
+}
+
 p{
     color: gray;
     text-align: justify;
@@ -32,9 +41,20 @@ section {
     background-image: url("images/header-bg.png");
     background-repeat:no-repeat; 
     background-position: center;
-    padding-bottom: 150px;      
+    padding-bottom: 150px; 
+        
 }
 
+.left-half-width h2{
+    line-height: 3px;
+    
+
+}
+
+.left-half-width p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 
 .left-half-width{
     width: 30%;
@@ -59,17 +79,17 @@ section {
 }
 .text-highlight{
     color:#EC4C7A ;
-    font-weight: 700px;
-    letter-spacing: 5px;
+    font-weight: 400px;
+    letter-spacing: 3px;
 }
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,#e75a82, #EC4C7A);
-    padding: 7px; 
+    background-image: linear-gradient(45deg,#f880a2, #EC4C7A);
+    padding: 10px 25px; 
     color: white;
     border-radius: 3px;
-    font-weight: 700; 
+    font-weight: 400; 
 }
 
 /*---biography Section-----*/
@@ -109,13 +129,14 @@ section {
 
 /*---Latest work Section-----*/
 .latest-work{
-    padding-top:50px;
-    padding-bottom: 30px;
+    padding-top:80px;
     width: 100%;
+    height: 700px;
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .latest-work{
     width: 100%;
     text-align: center;
@@ -141,11 +162,14 @@ section {
     margin-left: 2%;
     margin-right: 10.5%;
 }
-
+.project{
+    box-shadow: 10px 10px 40px gray;
+}
 .project img{
     width: 100%;
     
 }
+
 
 .project{
     transition: transform .2s;
@@ -154,4 +178,73 @@ section {
 .project:hover{
    
     transform: scale(1.1);
+}
+
+
+
+/*---biography Section-----*/
+
+.client-feedback{
+    width: 100%;
+    text-align: center;
+}
+
+.message{
+    text-align:center;
+}
+
+
+
+/*---Client feedback Section-----*/
+.client-feedback {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 150px;
+    
+}
+.message{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.message img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.message p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.email-area h3{
+    color: white;
+}
+.email-area h4{
+    color: white;
+}
+
+.email-area{
+    background-image:linear-gradient(45deg, #b6296a,#e92a60);
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    line-height: 20px;
+    color: #FFF;
+    border-radius: 7px;
+}
+
+/*----Footer Area---*/
+
+footer p{
+    text-align: center;
+    color: rgb(37, 35, 35);
+    font-weight: 400px;
 }
