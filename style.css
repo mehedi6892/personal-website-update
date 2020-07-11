@@ -20,7 +20,7 @@ section {
    
     height: 750px;
     width: 100%;
-    margin-bottom: 150px;
+   
 }
 
 
@@ -67,4 +67,37 @@ section {
     color: white;
     border-radius: 3px;
     font-weight: 700; 
+}
+
+/*---biography-----*/
+.biography{
+    width: 100%;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+
+.left-half-biography {
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    margin-left: 5%;
+
+
+
+}
+
+.right-half-biography{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    
+}
+
+.left-half-biography img{
+    width: 100%;
+    height: 650px;
 }
